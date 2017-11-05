@@ -15,6 +15,7 @@
     <!-- 2.静态资源默认servlet配置
         (1)加入对静态资源的处理：js,gif,png
         (2)允许使用"/"做整体映射
+             //意思是不要让spring-dispatcher拦截处理这些静态资源， 同一由默认的servlet-handler来处理
      -->
     <mvc:resources mapping="/resources/**" location="/resources/" />
     <mvc:default-servlet-handler />

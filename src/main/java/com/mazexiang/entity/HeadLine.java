@@ -9,7 +9,7 @@ public class HeadLine {
     private String lineImg;
     private Integer priority;
     private Integer enableStatus;
-    private Date ceateTime;
+    private Date createTime;
     private Date lastEditTime;
 
     public Long getLineId() {
@@ -60,12 +60,12 @@ public class HeadLine {
         this.enableStatus = enableStatus;
     }
 
-    public Date getCeateTime() {
-        return ceateTime;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCeateTime(Date ceateTime) {
-        this.ceateTime = ceateTime;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
     public Date getLastEditTime() {
@@ -85,7 +85,7 @@ public class HeadLine {
                 ", lineImg='" + lineImg + '\'' +
                 ", priority=" + priority +
                 ", enableStatus=" + enableStatus +
-                ", ceateTime=" + ceateTime +
+                ", createTime=" + createTime +
                 ", lastEditTime=" + lastEditTime +
                 '}';
     }

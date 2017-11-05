@@ -8,6 +8,7 @@
     <settings>
         <!--mybatis底层使用的是jdbc，这里这样设置是使用jdbc的getGeneratedKeys方法来获取数据库自增的主键值-->
         <setting name="useGeneratedKeys" value="true"/>
+        <!--开启驼峰命名转换 -->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
         <!--使用列别名来代替列名， mybatis默认是true-->
         <setting name="useColumnLabel" value="true"/>

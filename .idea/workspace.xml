@@ -2,11 +2,126 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SSM_OTO:war" />
+      <artifact name="SSM_OTO:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16d3ca3e-e134-44cf-a7ce-0168cf2573d6" name="Default" comment="" />
+    <list default="true" id="16d3ca3e-e134-44cf-a7ce-0168cf2573d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/WechatAuth.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mazexiang/TestC3P0.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/WechatAute.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Test1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SSM_OTO-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mazexiang/entity/WechatAute.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/dao/AreaDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/dao/ShopDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/dto/ShopExecution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/Area.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/HeadLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/LocalAuth.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/PersonInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/Product.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/ProductCategory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/ProductImg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/Shop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/ShopCategory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/entity/WechatAute.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/enums/ShopStateEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/exceptions/ShopOperationException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/service/AreaService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/service/ShopService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/service/impl/AreaServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/service/impl/ShopServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/util/ImageUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/util/PathUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/web/superadmin/AreaController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/mazexiang/web/superadmin/ShopManagmentController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mapper/AreaDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mapper/ShopDao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/spring/spring-dao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/spring/spring-service.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/spring/spring-web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/watermark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/html/shop/app.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/html/shop/shopRegister.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/commons-collections-3.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/commons-io-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/jackson-core-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/jackson-databind-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/javax.servlet-api-4.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/logback-classic-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/logback-core-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/mybatis-3.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/mysql-connector-java-6.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-aop-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-beans-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-context-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-core-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-expression-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-jdbc-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-test-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-tx-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-web-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-webmvc-4.3.10.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/thumbnailator-0.4.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/oto/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/AnnotationExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/SpringConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Test1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mazexiang/AccessDirectBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mazexiang/dao/AreaDaoTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mazexiang/jedis/JedisTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mazexiang/entity/HeadLine.class" afterPath="$PROJECT_DIR$/target/classes/com/mazexiang/entity/HeadLine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mazexiang/entity/LocalAuth.class" afterPath="$PROJECT_DIR$/target/classes/com/mazexiang/entity/LocalAuth.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mazexiang/entity/PersonInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/mazexiang/entity/PersonInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mazexiang/entity/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/mazexiang/entity/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mazexiang/web/superadmin/AreaController.class" afterPath="$PROJECT_DIR$/target/classes/com/mazexiang/web/superadmin/AreaController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/watermark.png" afterPath="$PROJECT_DIR$/target/classes/watermark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSM_OTO_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSM_OTO_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM_OTO.iml" afterPath="$PROJECT_DIR$/SSM_OTO.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/HeadLine.java" afterPath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/HeadLine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/LocalAuth.java" afterPath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/LocalAuth.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/PersonInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/PersonInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mazexiang/service/AreaService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mazexiang/service/AreaService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mazexiang/web/superadmin/AreaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/mazexiang/web/superadmin/AreaController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mazexiang/dao/AreaDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mazexiang/dao/AreaDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/db.properties" afterPath="$PROJECT_DIR$/target/classes/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +141,116 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
     <expand />
     <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AreaDaoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mazexiang/dao/AreaDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AreaController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/web/superadmin/AreaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="40" column="63" lean-forward="false" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="145" column="17" lean-forward="false" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="60" column="35" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AreaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/service/AreaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AreaDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <marker date="1507443192000" expanded="true" signature="285:409" ph="SELECT area_... tb_area" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestC3P0.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mazexiang/TestC3P0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccessDirectBuffer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mazexiang/AccessDirectBuffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,29 +282,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/Area.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/PersonInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/WechatAute.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/LocalAuth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/HeadLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/Shop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/ProductCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/ProductImg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/service/AreaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/service/impl/AreaServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/dao/AreaDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/web/superadmin/AreaController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/ShopCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/dao/ShopDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mazexiang/dao/AreaDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/util/ImageUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/dto/ShopExecution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/enums/ShopStateEnum.java" />
@@ -88,7 +301,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/shopRegistor.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/web/superadmin/ShopManagmentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/app.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mazexiang/jedis/JedisTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SpringConfig.java" />
@@ -96,10 +308,25 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/head.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/head.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopRegister.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/util/PathUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mazexiang/AccessDirectBuffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/PersonInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/WechatAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/LocalAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/HeadLine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/entity/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mazexiang/TestC3P0.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/service/AreaService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mazexiang/dao/AreaDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mazexiang/web/superadmin/AreaController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -140,12 +367,13 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="65" />
+    <option name="y" value="89" />
     <option name="width" value="1260" />
     <option name="height" value="664" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -193,85 +421,7 @@
               <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mazexiang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mazexiang" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mazexiang" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mazexiang" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mazexiang" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mazexiang" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mazexiang" type="462c0819:PsiDirectoryNode" />
-              <item name="superadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
@@ -348,19 +498,16 @@
             <path>
               <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mazexiang" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="SSM_OTO-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_OTO" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM_OTO" type="b2602c69:ProjectViewProjectNode" />
@@ -412,7 +559,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AccessDirectBuffer">
+  <component name="RunManager" selected="Tomcat Server.tomcat8">
     <configuration name="AccessDirectBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -432,14 +579,19 @@
       <module name="SSM_OTO" />
       <envs />
     </configuration>
-    <configuration name="AnnotationExample.testAsyncAnnotationForMethodsWithReturnType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="AreaDaoTest.insertShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mazexiang.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="SSM_OTO" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnotationExample" />
-      <option name="METHOD_NAME" value="testAsyncAnnotationForMethodsWithReturnType" />
+      <option name="PACKAGE_NAME" value="com.mazexiang.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mazexiang.dao.AreaDaoTest" />
+      <option name="METHOD_NAME" value="insertShop" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -452,19 +604,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="JedisTest.testJedisPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AreaDaoTest.queryArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.mazexiang.jedis.*" />
+          <option name="PATTERN" value="com.mazexiang.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SSM_OTO" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mazexiang.jedis" />
-      <option name="MAIN_CLASS_NAME" value="com.mazexiang.jedis.JedisTest" />
-      <option name="METHOD_NAME" value="testJedisPool" />
+      <option name="PACKAGE_NAME" value="com.mazexiang.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mazexiang.dao.AreaDaoTest" />
+      <option name="METHOD_NAME" value="queryArea" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -497,14 +649,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Test1.testSys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="TestC3P0.testc3p0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mazexiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="SSM_OTO" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test1" />
-      <option name="METHOD_NAME" value="testSys" />
+      <option name="PACKAGE_NAME" value="com.mazexiang" />
+      <option name="MAIN_CLASS_NAME" value="com.mazexiang.TestC3P0" />
+      <option name="METHOD_NAME" value="testc3p0" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -598,7 +755,8 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.45" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SSM_OTO:war exploded">
@@ -672,19 +830,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat8" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedisPool" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AnnotationExample.testAsyncAnnotationForMethodsWithReturnType" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Test1.testSys" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Test1.testInt" />
-      <item index="5" class="java.lang.String" itemvalue="Application.AccessDirectBuffer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AccessDirectBuffer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Test1.testInt" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestC3P0.testc3p0" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AreaDaoTest.queryArea" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AreaDaoTest.insertShop" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AccessDirectBuffer" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Test1.testInt" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Test1.testSys" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AnnotationExample.testAsyncAnnotationForMethodsWithReturnType" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedisPool" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AreaDaoTest.queryArea" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AreaDaoTest.insertShop" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestC3P0.testc3p0" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AccessDirectBuffer" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Test1.testInt" />
       </list>
     </recent_temporary>
   </component>
@@ -704,28 +862,19 @@
       <workItem from="1508400195759" duration="4619000" />
       <workItem from="1509714817111" duration="1264000" />
       <workItem from="1509762197974" duration="3425000" />
-      <workItem from="1509872584756" duration="10000" />
+      <workItem from="1509872584756" duration="7239000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test1_testInt - 2017.11.04 at 10h 58m 41s.xml">
-      <configuration name="Test1.testInt" configurationId="JUnit" />
+    <history-entry file="AreaDaoTest_insertShop - 2017.11.05 at 20h 01m 06s.xml">
+      <configuration name="AreaDaoTest.insertShop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test1_testInt - 2017.11.04 at 10h 58m 53s.xml">
-      <configuration name="Test1.testInt" configurationId="JUnit" />
+    <history-entry file="AreaDaoTest_queryArea - 2017.11.05 at 19h 58m 44s.xml">
+      <configuration name="AreaDaoTest.queryArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test1_testInt - 2017.11.04 at 10h 59m 19s.xml">
-      <configuration name="Test1.testInt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1_testInt - 2017.11.04 at 11h 00m 07s.xml">
-      <configuration name="Test1.testInt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1_testInt - 2017.11.04 at 11h 03m 18s.xml">
-      <configuration name="Test1.testInt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1_testInt - 2017.11.04 at 11h 04m 01s.xml">
-      <configuration name="Test1.testInt" configurationId="JUnit" />
+    <history-entry file="AreaDaoTest_queryArea - 2017.11.05 at 20h 06m 27s.xml">
+      <configuration name="AreaDaoTest.queryArea" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Test1_testInt - 2017.11.04 at 11h 04m 40s.xml">
       <configuration name="Test1.testInt" configurationId="JUnit" />
@@ -739,44 +888,53 @@
     <history-entry file="Test1_testInt - 2017.11.04 at 11h 06m 31s.xml">
       <configuration name="Test1.testInt" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestC3P0_testc3p0 - 2017.11.05 at 19h 45m 20s.xml">
+      <configuration name="TestC3P0.testc3p0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestC3P0_testc3p0 - 2017.11.05 at 19h 46m 08s.xml">
+      <configuration name="TestC3P0.testc3p0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestC3P0_testc3p0 - 2017.11.05 at 19h 46m 56s.xml">
+      <configuration name="TestC3P0.testc3p0" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63909000" />
+    <option name="totallyTimeSpent" value="71138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="65" width="1260" height="664" extended-state="0" />
+    <frame x="0" y="89" width="1260" height="664" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42179263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27422002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42179263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27422002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -821,6 +979,310 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/PersonInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/WechatAute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/WechatAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/LocalAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/HeadLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+          <folding>
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/ShopCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/ProductCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/ProductImg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="109" column="32" lean-forward="false" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507450241000" expanded="true" signature="324:762" ph="INSERT INTO tb_shop" />
+            <marker date="1507450241000" expanded="true" signature="856:1709" ph="update tb_sh... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AnnotationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopRegister.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/enums/ShopStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mazexiang/jedis/JedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-377">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="67" column="49" lean-forward="false" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/dao/ShopDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/dao/AreaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/dto/ShopExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <marker date="1507443192000" expanded="true" signature="285:409" ph="SELECT area_... tb_area" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/service/AreaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mazexiang/TestC3P0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mazexiang/AccessDirectBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mazexiang/dao/AreaDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="60" column="35" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mazexiang/web/superadmin/AreaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="40" column="63" lean-forward="false" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="145" column="17" lean-forward="false" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

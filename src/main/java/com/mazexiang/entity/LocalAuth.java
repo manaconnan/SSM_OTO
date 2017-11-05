@@ -3,19 +3,19 @@ package com.mazexiang.entity;
 import java.util.Date;
 
 public class LocalAuth {
-    private Long locatAuthID;
+    private Long localAuthID;
     private String username;
     private String password;
     private Date createTime;
     private Date lastEditTime;
     private PersonInfo personInfo;
 
-    public Long getLocatAuthID() {
-        return locatAuthID;
+    public Long getLocalAuthID() {
+        return localAuthID;
     }
 
-    public void setLocatAuthID(Long locatAuthID) {
-        this.locatAuthID = locatAuthID;
+    public void setLocalAuthID(Long localAuthID) {
+        this.localAuthID = localAuthID;
     }
 
     public String getUsername() {
@@ -61,7 +61,7 @@ public class LocalAuth {
     @Override
     public String toString() {
         return "LocalAuth{" +
-                "locatAuthID=" + locatAuthID +
+                "localAuthID=" + localAuthID +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", createTime=" + createTime +

@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-public interface AreaService {
+public interface    AreaService {
     List<Area> getAreaList();
 }

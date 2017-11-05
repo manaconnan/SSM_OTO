@@ -7,16 +7,20 @@ public class Product {
     private  Long productId;
     private String productName;
     private String productDesc;
-    private String imgAddr;//缩略图
-    private String normalPrice;
-    private String promotionPrice;
+    private String imgAddr;//缩略图地址
+    private String normalPrice;//原价
+    private String promotionPrice;//折扣价格
     private Integer priority;
     private Date createTime;
     private Date lastEditTime;
     //0、下架 1、在前端展示
     private Integer enableStatus;
+
+    //商品和图片的关系是 多对一的 ， 所以用集合类管理图片
     private List<ProductImg> productImgList;
+
     private ProductCategory productCategory;
+
     private  Shop shop;
 
     public Long getProductId() {

@@ -32,8 +32,9 @@ public class AreaDaoTest {
     public void queryArea() throws Exception {
 
         List<Area> areaList =areaService.getAreaList();
-        System.out.println("-------------------------------------------------------");
-        System.out.println("============>areaList的值是： " + areaList);
+       // System.out.println("-------------------------------------------------------");
+       // System.out.println("============>areaList的值是： " + areaList);
+        assertEquals(4,areaList.size());
     }
 
     @Test
