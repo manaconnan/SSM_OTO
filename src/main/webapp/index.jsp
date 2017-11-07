@@ -13,6 +13,5 @@
 </head>
 <body>
  <h2> hello world</h2>
-<jsp:forward page="WEB-INF/html/shop/shopRegister.html"></jsp:forward>
 </body>
 </html>

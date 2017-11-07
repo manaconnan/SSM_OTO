@@ -1,5 +1,6 @@
 package com.mazexiang.dao;
 
+import com.mazexiang.BaseTest;
 import com.mazexiang.entity.Area;
 import com.mazexiang.entity.PersonInfo;
 import com.mazexiang.entity.Shop;
@@ -17,10 +18,8 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-// 告诉junit spring配置文件的位置
-@ContextConfiguration({ "classpath:spring/spring-dao.xml", "classpath:spring/spring-service.xml" })
-public class AreaDaoTest {
+
+public class AreaDaoTest extends BaseTest {
 
     @Autowired
     private AreaService areaService;
@@ -66,10 +65,15 @@ public class AreaDaoTest {
     @Test
     public void updateShop(){
         Shop shop = new Shop();
-        shop.setShopId(1L);
-        shop.setAdvice("审核通过");
+        shop.setShopId(4L);
+        shop.setAdvice("审核通过1105");
         shop.setLastEditTime(new Date());
         shopDao.updateShop(shop);
+    }
+    @Test
+    public void testPath(){
+        String path = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+        System.out.println(path);
     }
 
 

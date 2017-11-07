@@ -143,7 +143,7 @@
 
   </dependencies>
   <build>
-    <finalName>oto</finalName>
+    <finalName>o2o</finalName>
     <plugins>
       <plugin>
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
