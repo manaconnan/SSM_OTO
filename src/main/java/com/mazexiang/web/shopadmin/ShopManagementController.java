@@ -53,7 +53,7 @@ public class ShopManagementController {
 
             }else {
                 Shop currentShop = (Shop) currentShopObj;
-                modelMap.put("rediret",false);
+                modelMap.put("redirect",false);
                 modelMap.put("shopId",currentShop.getShopId());
 
             }

@@ -1,5 +1,4 @@
 $(function () {
-    alert("shoplist!");
     getlist();
     function getlist() {
         $.ajax({
