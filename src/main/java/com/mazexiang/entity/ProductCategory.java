@@ -8,6 +8,15 @@ public class ProductCategory {
     private String productCategoryName;
     private Integer priority;
     private Date createTime;
+    private Integer isDelete;
+
+    public Integer getIsDelete() {
+        return isDelete;
+    }
+
+    public void setIsDelete(Integer isDelete) {
+        this.isDelete = isDelete;
+    }
 
     public Long getProductCategoryId() {
         return productCategoryId;
@@ -57,6 +66,7 @@ public class ProductCategory {
                 ", productCategoryName='" + productCategoryName + '\'' +
                 ", priority=" + priority +
                 ", createTime=" + createTime +
+                ", isDelete=" + isDelete +
                 '}';
     }
 }

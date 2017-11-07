@@ -23,3 +23,22 @@
 2017-11-07 13:48:39.146 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT COUNT(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_name like '%测试%' AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id 
 2017-11-07 13:48:39.147 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==> Parameters: 
 2017-11-07 13:48:39.149 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - <==      Total: 1
+2017-11-07 18:49:23.048 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority, FROM tb_product_category WHERE shop_id=? AND is_delete=0 
+2017-11-07 18:49:23.099 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
+2017-11-07 18:50:09.045 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority, FROM tb_product_category WHERE shop_id=? AND is_delete ==0 
+2017-11-07 18:50:09.097 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
+2017-11-07 19:07:23.439 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority FROM tb_product_category WHERE shop_id=? AND is_delete = 0 
+2017-11-07 19:07:23.494 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
+2017-11-07 19:07:23.518 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - <==      Total: 1
+2017-11-07 19:13:58.542 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority FROM tb_product_category WHERE shop_id=? AND is_delete = 0 
+2017-11-07 19:13:58.584 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
+2017-11-07 19:13:58.618 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - <==      Total: 1
+2017-11-07 19:14:05.438 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority FROM tb_product_category WHERE shop_id=? AND is_delete = 0 
+2017-11-07 19:14:05.477 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
+2017-11-07 19:14:05.503 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - <==      Total: 1
+2017-11-07 19:58:33.672 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority FROM tb_product_category WHERE shop_id=? AND is_delete = 0 
+2017-11-07 19:58:33.727 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 1(Long)
+2017-11-07 19:58:33.761 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - <==      Total: 3
+2017-11-07 20:06:49.884 [main] DEBUG c.m.dao.ProductCategoryDao.updateProductCategory - ==>  Preparing: UPDATE tb_product_category SET is_delete=? WHERE product_category_id=? 
+2017-11-07 20:06:49.936 [main] DEBUG c.m.dao.ProductCategoryDao.updateProductCategory - ==> Parameters: 1(Integer), 7(Long)
+2017-11-07 20:06:49.939 [main] DEBUG c.m.dao.ProductCategoryDao.updateProductCategory - <==    Updates: 1

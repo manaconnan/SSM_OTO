@@ -13,7 +13,7 @@ public interface ShopDao {
 
     int insertShop(Shop shop);
 
-    int updateShop( Shop shop);
+    int updateShop(Shop shop);
 
     /**
      * 分页查询店铺，可输入的条件有： 店铺名（模糊），店铺状态，店铺类别，区域ID， owner

@@ -1,13 +1,13 @@
 package com.mazexiang.web.shopadmin;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mazexiang.dto.Result;
 import com.mazexiang.dto.ShopExecution;
-import com.mazexiang.entity.Area;
-import com.mazexiang.entity.PersonInfo;
-import com.mazexiang.entity.Shop;
-import com.mazexiang.entity.ShopCategory;
+import com.mazexiang.entity.*;
+import com.mazexiang.enums.ProductCategoryStateEnum;
 import com.mazexiang.enums.ShopStateEnum;
 import com.mazexiang.service.AreaService;
+import com.mazexiang.service.ProductCategoryService;
 import com.mazexiang.service.ShopCategoryService;
 import com.mazexiang.service.ShopService;
 import com.mazexiang.util.CodeUtil;
@@ -38,6 +38,44 @@ public class ShopManagementController {
     private ShopCategoryService shopCategoryService;
     @Autowired
     private AreaService areaService;
+    @Autowired
+    private ProductCategoryService productCategoryService;
+
+    @RequestMapping(value = "/getproductcategorylist",method=RequestMethod.GET)
+    @ResponseBody
+    public Result<List<ProductCategory>> getProductCategoryList(HttpServletRequest request){
+        //TODO
+        Shop shop = new Shop();
+        shop.setShopId(1L);
+        request.getSession().setAttribute("currentShop",shop);
+
+        Shop currentShop =(Shop) request.getSession().getAttribute("currentShop");
+        List<ProductCategory> list = null;
+        if(currentShop!=null&&currentShop.getShopId()>0){
+            list = productCategoryService.getProductCategoryList(currentShop.getShopId());
+            return  new Result<>(true,list);
+        }else {
+            ProductCategoryStateEnum ps = ProductCategoryStateEnum.INNER_ERROR;
+            return new Result<>(false,ps.getState(),ps.getStateInfo());
+        }
+    }
+//    public Map<String,Object> getProductCategoryList(HttpServletRequest request){
+//        Map<String,Object> modelMap = new HashMap<>();
+//
+//        // TODO
+//        // 从session中获得 shopID
+//       // long shopId = HttpServletRequestUtils.getLong(request,"shopId");
+//        long shopId = 1L;
+//        if(shopId<=0){
+//            modelMap.put("success",false);
+//            modelMap.put("errMsg","店铺号不能为空");
+//        }else {
+//            List<ProductCategory> productCategoryList = productCategoryService.getProductCategoryList(shopId);
+//            modelMap.put("productCategoryList",productCategoryList);
+//            modelMap.put("success",true);
+//        }
+//        return  modelMap;
+//    }
 
 
     @RequestMapping(value = "getshopmanagementinfo",method = RequestMethod.GET)
@@ -280,11 +318,12 @@ public class ShopManagementController {
     }
 
 
+
     /**
      * 这是一个将CommonsMultipartFile  靠InputStream转换成File类的方法
      * @param ins
      * @param file
-     */
+
     private static void inputStreamToFile(InputStream ins, File file){
         OutputStream outputStream = null;
         try {
@@ -309,6 +348,7 @@ public class ShopManagementController {
             }
         }
     }
+    */
 
 
 }
