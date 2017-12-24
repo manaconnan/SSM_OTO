@@ -52,9 +52,9 @@
             <if test="shopImg != null">shop_img=#{shopImg},</if>
             <if test="priority != null">priority=#{priority},</if>
             <if test="lastEditTime != null">last_edit_time=#{lastEditTime},</if>
-            <if test="enableStatus != null">enable_status=#{enableStatus},</if>
+            <if test="enableStatus ==0 or enableStatus==1">enable_status=#{enableStatus},</if>
             <if test="advice != null">advice=#{advice},</if>
-            <if test="area != null">area_id=#{area.areaId},</if>
+            <if test="area!= null &amp;&amp; area!=&quot;&quot;">area_id=#{area.areaId},</if>
             <if test="shopCategory != null">shop_category_id=#{shopCategory.shopCategoryId}</if>
         </set>
         where shop_id=#{shopId}

@@ -1,5 +1,7 @@
 package com.mazexiang.util;
 
+import com.mazexiang.entity.Product;
+
 public class PathUtil {
     private static  String seperator = System.getProperty("file.separator");//获取系统文件的分割符
     public static String getImgBasePath(){
@@ -15,6 +17,10 @@ public class PathUtil {
     }
     public static String getShopImagePath(long shopId){
         String imagePath = "upload/item/shop"+shopId+"/";
+        return imagePath.replace("/",seperator);
+    }
+    public static String getProductImagePath(Product product){
+        String imagePath = getShopImagePath(product.getShop().getShopId())+product.getProductName()+"/";
         return imagePath.replace("/",seperator);
     }
 }

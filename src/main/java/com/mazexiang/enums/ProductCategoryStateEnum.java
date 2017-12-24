@@ -1,12 +1,14 @@
 package com.mazexiang.enums;
 
 public enum ProductCategoryStateEnum {
-    INNER_ERROR(-1001,"系统内部错误");
+    SUCCESS(1,"操作成功"),
+    INNER_ERROR(-1001,"系统内部错误"),
+    EMPTY_LIST(-1002,"添加数小于1");
 
     private int state;
     private String stateInfo;
 
-    private ProductCategoryStateEnum(int state, String stateInfo){
+    ProductCategoryStateEnum(int state, String stateInfo){
         this.state = state;
         this.stateInfo = stateInfo;
 

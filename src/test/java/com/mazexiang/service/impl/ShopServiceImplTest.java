@@ -1,6 +1,7 @@
 package com.mazexiang.service.impl;
 
 import com.mazexiang.BaseTest;
+import com.mazexiang.dto.ImageHolder;
 import com.mazexiang.dto.ShopExecution;
 import com.mazexiang.entity.Area;
 import com.mazexiang.entity.PersonInfo;
@@ -44,10 +45,13 @@ public class ShopServiceImplTest extends BaseTest {
         shop.setShopAddr("test");
         shop.setShopCategory(shopCategory);
         shop.setShopDesc("终于成功了");
-        shop.setShopName("测试店铺002");
+        shop.setCreateTime(new Date());
+        shop.setLastEditTime(new Date());
+        shop.setShopName("测试店铺003");
         File shopImg = new File("/Users/mazexiang/Workspace/resources/testPicture.jpg");
         InputStream ins = new FileInputStream(shopImg);
-        ShopExecution shopExecution = shopService.addShop(shop, ins,shopImg.getName());
+        ImageHolder thumbnail = new ImageHolder(shopImg.getName(),ins);
+        ShopExecution shopExecution = shopService.addShop(shop, thumbnail);
 
         System.out.println(shopExecution.getShop());
 
@@ -75,8 +79,8 @@ public class ShopServiceImplTest extends BaseTest {
         shop.setShopName("测试店铺002");
         File shopImg = new File("/Users/mazexiang/Workspace/resources/ma.jpg");
         InputStream ins = new FileInputStream(shopImg);
-
-        ShopExecution shopExecution1 = shopService.modifyShop(shop, ins, shopImg.getName());
+        ImageHolder thumbnail = new ImageHolder(shopImg.getName(),ins);
+        ShopExecution shopExecution1 = shopService.addShop(shop, thumbnail);
         System.out.println(shopExecution1.getShop());
     }
 

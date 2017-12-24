@@ -1,44 +1,9 @@
-2017-11-07 13:40:25.674 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.user_id = shopCondition.owner.userId AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
-2017-11-07 13:40:25.724 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==> Parameters: 0(Integer), 5(Integer)
-2017-11-07 13:41:20.603 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = shopCondition.owner.userId AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
-2017-11-07 13:41:20.658 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==> Parameters: 0(Integer), 5(Integer)
-2017-11-07 13:44:57.522 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id =? AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
-2017-11-07 13:44:57.568 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 5(Integer)
-2017-11-07 13:44:57.595 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - <==      Total: 5
-2017-11-07 13:46:58.285 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id =? AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
-2017-11-07 13:46:58.323 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 5(Integer)
-2017-11-07 13:46:58.354 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - <==      Total: 5
-2017-11-07 13:46:58.365 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT COUNT(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id =? AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id 
-2017-11-07 13:46:58.366 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
-2017-11-07 13:46:58.369 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - <==      Total: 1
-2017-11-07 13:48:06.861 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_name like '%测试%' AND s.owner_id =? AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
-2017-11-07 13:48:06.923 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 5(Integer)
-2017-11-07 13:48:06.960 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - <==      Total: 1
-2017-11-07 13:48:06.967 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT COUNT(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_name like '%测试%' AND s.owner_id =? AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id 
-2017-11-07 13:48:06.968 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
-2017-11-07 13:48:06.972 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - <==      Total: 1
-2017-11-07 13:48:39.044 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_name like '%测试%' AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
-2017-11-07 13:48:39.098 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==> Parameters: 0(Integer), 5(Integer)
-2017-11-07 13:48:39.137 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - <==      Total: 4
-2017-11-07 13:48:39.146 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT COUNT(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_name like '%测试%' AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id 
-2017-11-07 13:48:39.147 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==> Parameters: 
-2017-11-07 13:48:39.149 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - <==      Total: 1
-2017-11-07 18:49:23.048 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority, FROM tb_product_category WHERE shop_id=? AND is_delete=0 
-2017-11-07 18:49:23.099 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
-2017-11-07 18:50:09.045 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority, FROM tb_product_category WHERE shop_id=? AND is_delete ==0 
-2017-11-07 18:50:09.097 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
-2017-11-07 19:07:23.439 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority FROM tb_product_category WHERE shop_id=? AND is_delete = 0 
-2017-11-07 19:07:23.494 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
-2017-11-07 19:07:23.518 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - <==      Total: 1
-2017-11-07 19:13:58.542 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority FROM tb_product_category WHERE shop_id=? AND is_delete = 0 
-2017-11-07 19:13:58.584 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
-2017-11-07 19:13:58.618 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - <==      Total: 1
-2017-11-07 19:14:05.438 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority FROM tb_product_category WHERE shop_id=? AND is_delete = 0 
-2017-11-07 19:14:05.477 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 2(Long)
-2017-11-07 19:14:05.503 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - <==      Total: 1
-2017-11-07 19:58:33.672 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==>  Preparing: SELECT product_category_id, product_category_name, priority FROM tb_product_category WHERE shop_id=? AND is_delete = 0 
-2017-11-07 19:58:33.727 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - ==> Parameters: 1(Long)
-2017-11-07 19:58:33.761 [main] DEBUG c.m.dao.ProductCategoryDao.queryProductCategory - <==      Total: 3
-2017-11-07 20:06:49.884 [main] DEBUG c.m.dao.ProductCategoryDao.updateProductCategory - ==>  Preparing: UPDATE tb_product_category SET is_delete=? WHERE product_category_id=? 
-2017-11-07 20:06:49.936 [main] DEBUG c.m.dao.ProductCategoryDao.updateProductCategory - ==> Parameters: 1(Integer), 7(Long)
-2017-11-07 20:06:49.939 [main] DEBUG c.m.dao.ProductCategoryDao.updateProductCategory - <==    Updates: 1
+2017-11-13 20:57:31.112 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_name like '%测试%' AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2017-11-13 20:57:31.151 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - ==> Parameters: 0(Integer), 5(Integer)
+2017-11-13 20:57:31.216 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopList - <==      Total: 5
+2017-11-13 20:57:31.226 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT COUNT(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_name like '%测试%' AND s.area_id = a.area_id AND s.shop_category_id=sc.shop_category_id 
+2017-11-13 20:57:31.227 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - ==> Parameters: 
+2017-11-13 20:57:31.232 [main] DEBUG com.mazexiang.dao.ShopDao.queryShopCount - <==      Total: 1
+2017-11-13 20:59:22.483 [main] DEBUG com.mazexiang.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id, area_name, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2017-11-13 20:59:22.511 [main] DEBUG com.mazexiang.dao.AreaDao.queryArea - ==> Parameters: 
+2017-11-13 20:59:22.532 [main] DEBUG com.mazexiang.dao.AreaDao.queryArea - <==      Total: 4

@@ -1,6 +1,7 @@
 package com.mazexiang.dto;
 
 public class Result<T> {
+
     private boolean success;
     private T data;
     private String errorMsg;

@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-//@Component
 public interface AreaDao {
     /**
      *  列出区域列表

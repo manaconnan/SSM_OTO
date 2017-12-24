@@ -1,5 +1,6 @@
 package com.mazexiang.service;
 
+import com.mazexiang.dto.ImageHolder;
 import com.mazexiang.dto.ShopExecution;
 import com.mazexiang.entity.Shop;
 import com.mazexiang.exceptions.ShopOperationException;
@@ -11,11 +12,11 @@ import java.lang.reflect.Field;
 
 
 public interface ShopService {
-    ShopExecution addShop(Shop shop, InputStream shopImgInputStream,String fileName) throws ShopOperationException;
+    ShopExecution addShop(Shop shop, ImageHolder thumbnail) throws ShopOperationException;
 
     Shop getByShopId(long shopId);
 
-    ShopExecution modifyShop(Shop shop, InputStream shopImgInputStream, String fileName) throws ShopOperationException;
+    ShopExecution modifyShop(Shop shop, ImageHolder thumbnail) throws ShopOperationException;
 
     /**
      * 根据shopCondition 分页返回店铺列表

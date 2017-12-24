@@ -1,6 +1,7 @@
 package com.mazexiang.service.impl;
 
 import com.mazexiang.BaseTest;
+import com.mazexiang.dto.ProductCategoryExecution;
 import com.mazexiang.entity.ProductCategory;
 import com.mazexiang.service.ProductCategoryService;
 import org.junit.Test;
@@ -26,8 +27,12 @@ public class ProductCategoryServiceImplTest extends BaseTest {
 
     @Test
     public void testUpdateProductCategory(){
-        int i = productCategoryService.deleteProductCategoryById(7l);
-        System.out.println(i);
+        ProductCategory productCategory = new ProductCategory();
+        productCategory.setShopId(1L);
+        productCategory.setProductCategoryId(11l);
+        ProductCategoryExecution productCategoryExecution = productCategoryService.deleteProductCategory(productCategory);
+
+        System.out.println(productCategoryExecution.getStateInfo());
     }
 
 }

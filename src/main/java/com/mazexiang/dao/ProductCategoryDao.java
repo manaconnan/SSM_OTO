@@ -6,9 +6,10 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public interface ProductCategoryDao {
     List<ProductCategory> queryProductCategory(@Param("shopId") Long shopId);
 
     int updateProductCategory(ProductCategory productCategory);
+
+    int batchInsertProductCategory(List<ProductCategory> productCategoryList);
 }

@@ -1,5 +1,6 @@
 package com.mazexiang.util;
 
+import com.mazexiang.dto.ImageHolder;
 import net.coobird.thumbnailator.Thumbnailator;
 import net.coobird.thumbnailator.Thumbnails;
 import net.coobird.thumbnailator.geometry.Positions;
@@ -44,13 +45,13 @@ public class ImageUtil {
 
     /**
      * 处理缩略图， 并返回生成图篇的相对路径
-     * @param inputStream
+     * @param
      * @param targetAddr
      * @return
      */
-    public static String generateThumbnail(InputStream inputStream,String fileName , String targetAddr){
+    public static String generateThumbnail(ImageHolder thumbnail, String targetAddr){
         String realFileName = getRandomFileName();
-        String extension = getFileExtension(fileName);
+        String extension = getFileExtension(thumbnail.getImageName());
         makeDirPath(targetAddr);
 
         String relativeAddr =targetAddr+realFileName+extension;
@@ -58,7 +59,7 @@ public class ImageUtil {
         File dest = new File(PathUtil.getImgBasePath()+relativeAddr);
         logger.debug("current complete addr is: "+ PathUtil.getImgBasePath()+relativeAddr);
         try{
-            Thumbnails.of(inputStream).size(400,400).watermark(Positions.CENTER ,
+            Thumbnails.of(thumbnail.getImage()).size(200,200).watermark(Positions.CENTER ,
                     ImageIO.read(new File(basePath+"/watermark.png")),0.8f).outputQuality(0.8f).toFile(dest);
 
         }catch (Exception e){
@@ -115,7 +116,12 @@ public class ImageUtil {
         }
 
     }
+    public static void deleteFile(File file){
+        if (file.exists()){
 
+            file.delete();
+        }else return;
+    }
     public static void main(String[] args) throws IOException {
 
 //        Thumbnails.of(new File("/Users/mazexiang/Workspace/resources/testPicture.jpg"))

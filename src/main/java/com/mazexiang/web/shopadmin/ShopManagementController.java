@@ -1,6 +1,7 @@
 package com.mazexiang.web.shopadmin;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mazexiang.dto.ImageHolder;
 import com.mazexiang.dto.Result;
 import com.mazexiang.dto.ShopExecution;
 import com.mazexiang.entity.*;
@@ -38,44 +39,6 @@ public class ShopManagementController {
     private ShopCategoryService shopCategoryService;
     @Autowired
     private AreaService areaService;
-    @Autowired
-    private ProductCategoryService productCategoryService;
-
-    @RequestMapping(value = "/getproductcategorylist",method=RequestMethod.GET)
-    @ResponseBody
-    public Result<List<ProductCategory>> getProductCategoryList(HttpServletRequest request){
-        //TODO
-        Shop shop = new Shop();
-        shop.setShopId(1L);
-        request.getSession().setAttribute("currentShop",shop);
-
-        Shop currentShop =(Shop) request.getSession().getAttribute("currentShop");
-        List<ProductCategory> list = null;
-        if(currentShop!=null&&currentShop.getShopId()>0){
-            list = productCategoryService.getProductCategoryList(currentShop.getShopId());
-            return  new Result<>(true,list);
-        }else {
-            ProductCategoryStateEnum ps = ProductCategoryStateEnum.INNER_ERROR;
-            return new Result<>(false,ps.getState(),ps.getStateInfo());
-        }
-    }
-//    public Map<String,Object> getProductCategoryList(HttpServletRequest request){
-//        Map<String,Object> modelMap = new HashMap<>();
-//
-//        // TODO
-//        // 从session中获得 shopID
-//       // long shopId = HttpServletRequestUtils.getLong(request,"shopId");
-//        long shopId = 1L;
-//        if(shopId<=0){
-//            modelMap.put("success",false);
-//            modelMap.put("errMsg","店铺号不能为空");
-//        }else {
-//            List<ProductCategory> productCategoryList = productCategoryService.getProductCategoryList(shopId);
-//            modelMap.put("productCategoryList",productCategoryList);
-//            modelMap.put("success",true);
-//        }
-//        return  modelMap;
-//    }
 
 
     @RequestMapping(value = "getshopmanagementinfo",method = RequestMethod.GET)
@@ -87,7 +50,7 @@ public class ShopManagementController {
             Object currentShopObj = request.getSession().getAttribute("currentShop");
             if(currentShopObj==null){
                 modelMap.put("redirect",true);
-                modelMap.put("url","/o2o/shopadmin/shoplist");//TODO ???
+                modelMap.put("url","/o2o/shopadmin/shoplist");
 
             }else {
                 Shop currentShop = (Shop) currentShopObj;
@@ -214,11 +177,10 @@ public class ShopManagementController {
            // PersonInfo owner = (PersonInfo) request.getSession().getAttribute("user");
             shop.setOwner(owner);
 
-
-
             ShopExecution shopExecution = null;
             try {
-                shopExecution = shopService.addShop(shop,shopImg.getInputStream(),shopImg.getOriginalFilename());
+                ImageHolder thumbnail = new ImageHolder(shopImg.getOriginalFilename(),shopImg.getInputStream());
+                shopExecution = shopService.addShop(shop,thumbnail);
                 if(shopExecution.getState()== ShopStateEnum.CHECK.getState()){
                     modelMap.put("success",true);
                     // 从session中获取用户可以操作的店铺列表
@@ -263,8 +225,6 @@ public class ShopManagementController {
         //import com.fasterxml.jackson.databind.ObjectMapper中的 POJO 和JSON数据相互转换的类， 具体可参见github ： jackson-databind
         ObjectMapper mapper = new ObjectMapper();
         Shop shop  = null;
-
-
         try{
             shop = mapper.readValue(shopStr,Shop.class);
         }catch (Exception e ){
@@ -290,11 +250,11 @@ public class ShopManagementController {
             ShopExecution shopExecution;
             try {
                 if(shopImg==null){
-                    shopExecution = shopService.addShop(shop,null,null);
+                    shopExecution = shopService.modifyShop(shop,null);
 
                 }else {
-
-                    shopExecution = shopService.addShop(shop,shopImg.getInputStream(),shopImg.getOriginalFilename());
+                    ImageHolder thumbnail = new ImageHolder(shopImg.getOriginalFilename(),shopImg.getInputStream());
+                    shopExecution = shopService.modifyShop(shop,thumbnail);
                 }
                 if(shopExecution.getState()== ShopStateEnum.SUCCESS.getState()){
                     modelMap.put("success",true);
